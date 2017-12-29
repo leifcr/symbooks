@@ -1,0 +1,26 @@
+@keyframes symbooksactionborders {
+  0%   {border-radius: 0px 50px 250px 50px;}
+  25%   {border-radius: 250px 50px 0px 50px;}
+  50%   {border-radius: 50px 250px 0px 50px;}
+  75%   {border-radius: 50px 50px 0px 250px;}
+  100%   {border-radius: 0px 50px 250px 50px;}
+}
+.b-5 {
+  border-width: 10px !important;
+  border-radius: 0px 50px 250px 50px;
+  background-color: #d6f5fa;
+  -webkit-transition: all 0.75s ease-in-out;
+  -moz-transition: all 0.75s ease-in-out;
+  -o-transition: all 0.75s ease-in-out;
+  transition: all 0.75s ease-in-out;
+  animation: symbooksactionborders 5s infinite;
+  animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+}
+.b-5:hover {
+  border-color: #51B816 !important;
+  background-color: #CBF5B3;
+  border-radius: 250px 50px 0px 50px;
+  animation-play-state: running;
+-webkit-animation-play-state: running;
+}
